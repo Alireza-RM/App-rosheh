@@ -1,0 +1,117 @@
+.swiper {
+    width: 100%;
+    height: 400px;
+    /* height: 100%; */
+  }
+  
+  @media  (min-width:768px) {
+    .swiper{
+      min-height: 500px;
+    }
+    .swiper-pagination-bullet{
+      display: inline-block !important;
+    }
+  }
+  @media  (min-width:1024px) {
+    .swiper{
+      min-height: 400px ;
+    }
+    .swiper-button-prev::after , .swiper-button-next::after{
+      color: #fff;
+      font-size: 25px !important;
+      font-weight: 600;
+    }
+  }
+  
+  .swiper-button-prev::after , .swiper-button-next::after{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-pagination-bullet {
+    display:none;
+    border-radius: 0%;
+    width: 80px;
+    height: 40px;
+    /* text-align: center; */
+    /* line-height: 20px; */
+    font-size: 12px;
+    color: #fff;
+    opacity: 1;
+    background: rgba(241, 239, 239, 0);
+    /* display: block; */
+  }
+  
+  .swiper-pagination-bullet div{
+    border-radius: 20%;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    /* line-height: 20px;
+    font-size: 12px; */
+    /* color: rgb(9, 1, 1) !important; */
+    /* opacity: 1; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+  }
+  .swiper-pagination-bullet p{
+    border-radius: 20%;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center ;
+    padding-left: 4px;
+  }
+  .swiper-pagination-bullet span{
+    border-radius: 0%;
+    width: 16px;
+    height: 2.4px;
+    font-size: 12px;
+    color: #fff;
+    opacity: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center ;
+    transition: all 0.2s ease-in;
+  }
+  .swiper-pagination-bullet:hover span{
+    width: 30px;
+  }
+  
+  
+  .swiper-pagination-bullet-active  span{
+    color: #fff;
+    width: 45px !important;
+  }
+  
+  
+  #mobile5,#mobile6{
+    display: none !important;
+  }

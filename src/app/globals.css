@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+} */
+
+#app {
+  height: 100%;
+}
+ html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* background: #eee; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} 
+
+
+/* #mobile5,#mobile6 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+} */
+
+.transitionTime{
+  transition: all 0.5s ease-in-out !important;
+}
+
+
+.transitionTimeHover{
+  transition: all 0.3s ease-in-out !important;
+}
+
+.transitionTimeModal{
+  transition: all 0.2s ease-in-out !important;
+}
+
+
+
+
+
+
+
+
+
