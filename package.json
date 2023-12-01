@@ -9,10 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.14.18",
-    "@niklasmaki/react-image-magnifiers": "^1.4.3",
     "@reduxjs/toolkit": "^1.9.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "next": "14.0.2",

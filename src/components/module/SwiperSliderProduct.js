@@ -12,8 +12,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import "@/module/SwiperSliderProduct.module.css";
-// import "@/app/globals.css";
-import "@/module/SwiperSliderProduct.css";
+import "@/app/globals.css";
+// import "@/module/SwiperSliderProduct.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
